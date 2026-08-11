@@ -12,7 +12,7 @@
     // LOCAL (testing on your computer): http://127.0.0.1:5000
     // LIVE (after deploying): https://your-app-name.onrender.com
     // ============================================
-    const API_BASE = 'http://127.0.0.1:5000';
+    const API_BASE = 'https://aurene-website.onrender.com';
     // ============================================
     // DOM Elements
     // ============================================
