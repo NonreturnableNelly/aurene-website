@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clients | AURÉNE Photography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none"><path d="M20 5L25 15H35L27 22L30 32L20 26L10 32L13 22L5 15H15L20 5Z" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+                <span>AURÉNE</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="index.html#rates" class="nav-link">Rates</a></li>
+                <li><a href="clients.html" class="nav-link active">Clients</a></li>
+                <li><a href="journal.html" class="nav-link">Journal</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1920&q=80" alt="Clients background">
+            <div class="page-header-overlay"></div>
+        </div>
+        <div class="page-header-content">
+            <span class="section-tag">Portfolio</span>
+            <h1 class="page-title">Clients <span class="accent">Worked With</span></h1>
+            <p class="page-subtitle">A showcase of stories told through the lens — portraits, families, celebrations, and love.</p>
+        </div>
+    </section>
+
+    <!-- Clients Grid -->
+    <section class="clients-section">
+        <div class="container">
+            <div class="clients-filter">
+                <button class="filter-btn active" data-filter="all">All Clients</button>
+                <button class="filter-btn" data-filter="portrait">Portraits</button>
+                <button class="filter-btn" data-filter="family">Families</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+            </div>
+
+            <div class="clients-grid">
+                <!-- Portrait Clients -->
+                <div class="client-card" data-category="portrait">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80" alt="Amara Okafor">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Portrait</span>
+                        <h3>Amara Okafor</h3>
+                        <p>Editorial headshot session for a Abuja-based fashion influencer. Shot in natural studio light with a minimal aesthetic.</p>
+                    </div>
+                </div>
+
+                <div class="client-card" data-category="portrait">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="David Emeka">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Portrait</span>
+                        <h3>David Emeka</h3>
+                        <p>Personal branding portraits for a tech entrepreneur. Clean, confident, and contemporary.</p>
+                    </div>
+                </div>
+
+                <div class="client-card" data-category="portrait">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=600&q=80" alt="Zara Ibrahim">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Portrait</span>
+                        <h3>Zara Ibrahim</h3>
+                        <p>Creative portrait series exploring movement and shadow. A collaboration with a local dancer.</p>
+                    </div>
+                </div>
+
+                <!-- Family Clients -->
+                <div class="client-card" data-category="family">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&q=80" alt="The Adekole Family">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Family</span>
+                        <h3>The Adekole Family</h3>
+                        <p>A warm, laughter-filled family session at Lekki Conservation Centre. Golden hour magic.</p>
+                    </div>
+                </div>
+
+                <div class="client-card" data-category="family">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=600&q=80" alt="The Nwosu Family">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Family</span>
+                        <h3>The Nwosu Family</h3>
+                        <p>Extended family gathering of 15 people. Coordinated outfits and genuine joy captured frame by frame.</p>
+                    </div>
+                </div>
+
+                <div class="client-card" data-category="family">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?w=600&q=80" alt="The Bello Family">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Family</span>
+                        <h3>The Bello Family</h3>
+                        <p>Intimate in-home newborn and family session. Soft light, tender moments, timeless memories.</p>
+                    </div>
+                </div>
+
+                <!-- Event Clients -->
+                <div class="client-card" data-category="events">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80" alt="Chioma & Emeka Wedding">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Events</span>
+                        <h3>Chioma & Emeka</h3>
+                        <p>Traditional Igbo wedding coverage. Vibrant colors, emotional moments, and cultural richness.</p>
+                    </div>
+                </div>
+
+                <div class="client-card" data-category="events">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80" alt="Abuja Fashion Week">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Events</span>
+                        <h3>Abuja Fashion Week</h3>
+                        <p>Backstage and runway coverage. High-energy editorial shots for a premier fashion event.</p>
+                    </div>
+                </div>
+
+                <div class="client-card" data-category="events">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&q=80" alt="Corporate Gala">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Events</span>
+                        <h3>Corporate Gala</h3>
+                        <p>Annual end-of-year celebration for a leading Nigerian bank. Candid and posed coverage.</p>
+                    </div>
+                </div>
+
+                <!-- Lifestyle Clients -->
+                <div class="client-card" data-category="lifestyle">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80" alt="Tolu Ajayi">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Lifestyle</span>
+                        <h3>Tolu Ajayi</h3>
+                        <p>Urban lifestyle session through the streets of Victoria Island. Gritty, real, and full of character.</p>
+                    </div>
+                </div>
+
+                <div class="client-card" data-category="lifestyle">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=80" alt="Ngozi & Kelechi">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Lifestyle</span>
+                        <h3>Ngozi & Kelechi</h3>
+                        <p>Couple's lifestyle session at Tarkwa Bay Beach. Sunset, waves, and undeniable chemistry.</p>
+                    </div>
+                </div>
+
+                <div class="client-card" data-category="lifestyle">
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80" alt="Fola Martins">
+                    </div>
+                    <div class="client-info">
+                        <span class="client-category">Lifestyle</span>
+                        <h3>Fola Martins</h3>
+                        <p>Personal brand lifestyle shoot for a wellness coach. Natural light, calm energy, authentic presence.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clients-cta">
+                <a href="journal.html" class="btn btn-outline">Read the Journal</a>
+                <a href="index.html#rates" class="btn btn-primary">Book a Session</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <svg class="logo-icon" viewBox="0 0 40 40" fill="none"><path d="M20 5L25 15H35L27 22L30 32L20 26L10 32L13 22L5 15H15L20 5Z" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+                        <span>AURÉNE</span>
+                    </a>
+                    <p>Capturing moments that last a lifetime. Professional photography services in Abuja and beyond.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="index.html#rates">Rates</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="clients.html">Client Work</a></li>
+                        <li><a href="journal.html">Journal</a></li>
+                        <li><a href="index.html#rates">Portrait Sessions</a></li>
+                        <li><a href="index.html#rates">Family Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+2349163849474">+234 916 384 9474</a></li>
+                        <li><a href="mailto:Jenniferadekole@gmail.com">Jenniferadekole@gmail.com</a></li>
+                        <li>Abuja, Nigeria</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> AURÉNE Photography by Jennifer Adekole. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
